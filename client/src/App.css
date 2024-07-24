@@ -1,0 +1,71 @@
+/* default text color to white */
+
+body {
+  color: white;
+  background-color: #A67A3A;
+}
+
+.my-bg-primary {
+  background-color: #3AA65C;
+}
+
+.my-bg-primary:hover {
+  background-color: #489962;
+}
+
+.my-bg-secondary {
+  background-color: #A67A3A;
+}
+
+.my-bg-dark {
+  background-color: #2B332E;
+}
+
+.my-bg-dark:hover {
+  background-color: #565e59;
+}
+
+.my-bg-blue {
+  background-color: #3AA6A5;
+}
+
+.my-bg-blue:hover {
+  background-color: #459c9b;
+}
+
+.my-bg-white {
+  background-color: white;
+}
+
+.my-footer {
+  background-color: #3AA6A5;
+}
+
+.my-text-primary {
+  color: #3AA65C;
+}
+
+.my-text-secondary {
+  color: #A67A3A;
+}
+
+.my-text-gray {
+  color: rgb(179, 176, 176);
+}
+
+.my-text-white {
+  color: white;
+}
+
+.my-text-black {
+  color: black;
+}
+
+.debug-border {
+  border: 2px;
+  border-style: dashed;
+}
+
+.my-bg-transparent {
+  background-color: transparent;
+}

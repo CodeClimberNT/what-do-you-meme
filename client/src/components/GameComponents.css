@@ -1,0 +1,27 @@
+.meme-game {
+  object-fit: cover;
+  max-width: 40vw;
+  max-height: 60vh;
+  width: auto;
+  height: auto;
+}
+
+.my-selected-caption {
+  color: purple;
+}
+
+.my-text-correct {
+  color: #3ffa7a;
+}
+
+.my-text-wrong {
+  color: #ff3030;
+}
+
+.my-bg-correct {
+  background-color: #3ffa7a;
+}
+
+.my-bg-wrong {
+  background-color: #ff3030;
+}

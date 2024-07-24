@@ -1,0 +1,82 @@
+### RESET DATABASE
+DELETE /api/reset
+Host: localhost:3001
+
+### dELETE SESSION
+DELETE /api/sessions/current
+Host: localhost:3001
+
+### register a new user
+POST /api/users
+Host: localhost:3001
+content-type: application/json
+
+{
+  "username": "frank",
+  "password": "theworstpassword"
+}
+
+
+### login
+POST /api/sessions
+Host: localhost:3001
+content-type: application/json
+
+{
+  "username": "nick",
+  "password": "thebestpassword"
+}
+
+### get session
+GET /api/sessions/current
+Host: localhost:3001
+
+### logout
+DELETE /api/sessions/current
+Host: localhost:3001
+
+### get new anonym game
+GET /api/games/new
+Host: localhost:3001
+
+### get user games history
+GET /api/games/history/nick
+Host: localhost:3001
+
+### login
+POST /api/sessions
+Host: localhost:3001
+content-type: application/json
+
+{
+  "username": "nick",
+  "password": "thebestpassword"
+}
+
+### register a new game
+POST /api/games/new
+Host: localhost:3001
+content-type: application/json
+
+{
+  "score": "0"
+}
+
+### play a round
+POST /api/games/next
+Host: localhost:3001
+content-type: application/json
+
+{
+  "gameId": "15",
+  "memeSeen": [9,3],
+  "answer": {
+    "memeId": 9,
+    "captionId": 50,
+    "timeout": false
+  }
+}
+
+### test a round verification
+GET /api/memes/1/captions/2
+Host: localhost:3001
